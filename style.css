@@ -1,0 +1,107 @@
+.first-section{
+    display: flex;
+}
+.left-side{
+    width: 50%;
+}
+.left-side{
+    padding-left: 20px;
+}
+.left-side h1{
+    font-size: 70px;
+}
+.developer{
+   color: blueviolet; 
+}
+.right-side img{
+width: 70%;
+padding-left: 10%;
+padding-top: 50px;
+}
+.about h3{
+    font-size: 30px;
+}
+.about p{
+    font-size: 20px;
+    text-align: justify;
+}
+.about a{
+   text-decoration: none; 
+   background-image: linear-gradient(#ffa500, #ff6a3b);
+   font-size: 25px;
+   padding: 10px 30px;
+   border-radius: 5px;
+   color: white;
+   margin-top: 20px;
+}
+.second-section{
+    display: flex;
+    margin-top: 50px;
+}
+.left-side img{
+    width: 90%;
+    height: 40%;
+    padding-right: 10%;
+    padding-top: 50px;
+}
+.right-side h1{
+    font-size: 45px;
+}
+.right-side h2{
+    font-size: 35px;
+}
+.second-p{
+ padding-right: 30px;  
+}
+
+
+/* experience design */
+.experience{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.ex-head{
+    font-size: 50px;
+}
+.experience-title{
+    font-size: 70px;
+
+}
+.left-experience{
+    width: 600px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    padding: 0 20px;
+    border-left: 3px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.left-experience h1{
+    font-size: 40px;
+}
+.left-experience h4{
+    font-size: 25px;
+    color: #ffa500;
+}
+.left-experience p{
+    font-size: 20px;
+    text-align: justify;
+}
+.right-experience{
+    width: 600px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    padding: 0 20px;
+    border-left: 3px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.right-experience h1{
+    font-size: 40px;
+}
+.right-experience h4{
+    font-size: 25px;
+    color: #ffa500;
+}
+.right-experience p{
+    font-size: 20px;
+}
